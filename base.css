@@ -1,0 +1,132 @@
+html,
+body {
+    font-family: "Fira Sans", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+p {
+    margin: 0;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 20px;
+}
+
+a {
+    font-family: "Fira Sans", sans-serif;
+}
+
+.centery {
+    position: relative;
+    top: 0%
+}
+
+.topy {
+    position: relative;
+    top: 7%
+}
+
+.centerx {
+    position: relative;
+    margin: auto;
+}
+
+.box {
+    width: 95%;
+    max-width: 900px;
+    min-width: 300px;
+}
+
+.textarea-box {
+    resize:none;
+    max-width: 400px;
+    width: 95%;
+    border-radius: 5px;
+    outline: none;
+    border: 2px #3E3EDA solid;
+    font-size: 20px;
+    font-family: "Fira Sans";
+    padding: 5px 10px;
+    text-align: left;
+}
+
+@media (min-width: 940px) {
+    .textarea-box {
+      height: 150px;
+    }
+  }
+  
+  @media (max-width: 940px) {
+    .textarea-box {
+      height: 120px;
+    }
+  }
+
+hr {
+    border: 0;
+    margin-top: 20px;
+    border-top: 5px rgba(62,62,218, 1) dotted;
+}
+
+.char-block {
+    width: 40px;
+    border-radius: 5px;
+    border: 2px #ddd solid;
+    padding-top: 8px;
+    margin: 4px 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    height: 50px;
+    transition: all 0.1s linear;
+    display: inline-block;
+    background-color: #fff;
+    text-align: center;
+}
+.char-bad {
+    border: 2px #ff9393 solid;
+    background-color: #fff7f7;
+}
+.char-good {
+    border: 2px #aaffa0 solid;
+    background-color: #eaffea;
+}
+
+.letter {
+    font-size: 25px;
+    display:inline-block;
+    width: 100%;
+}
+.count {
+    display: inline-block;
+    color:rgba(42,42,42, 0.7);
+    font-size: 14px;
+    overflow: visible;
+    word-wrap: normal;
+    white-space: nowrap;
+}
+
+#alphabet {
+    margin: auto;
+    max-width: 600px;
+    width: 100%;
+}
+
+#result {
+    font-size: 25px;
+    padding: 5px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.result-good {
+    color:rgb(45, 156, 28);
+}
+
+.result-bad {
+    color:rgb(190, 35, 35)
+}

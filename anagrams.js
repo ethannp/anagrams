@@ -18,7 +18,6 @@ function check() {
 
     let fre1 = counter("abcdefghijklmnopqrstuvwxyz" + t1);
     let fre2 = counter("abcdefghijklmnopqrstuvwxyz" + t2);
-    console.log(fre1);
     for (const [key, value] of Object.entries(fre1)) {
         let frkey1 = value;
         let frkey2 = fre2[key];
